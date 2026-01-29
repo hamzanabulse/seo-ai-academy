@@ -4,6 +4,9 @@ import { mdToHtml } from "@/lib/markdown";
 import { getPrevNext, getRelatedPosts } from "@/lib/related";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return getBlogPosts().map((p) => ({ slug: p.slug }));
 }

@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { getTags, getPostsByTag, slugifyTag } from "@/lib/taxonomy";
 
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getTags().map((t) => ({ tag: slugifyTag(t.name) }));
+}
+
 export default function TagPage({ params }: { params: { tag: string } }) {
   const tags = getTags();
   const match = tags.find((t) => slugifyTag(t.name) === params.tag);

@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { getPostsByCategory } from "@/lib/taxonomy";
+import { getCategories, getPostsByCategory } from "@/lib/taxonomy";
+
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getCategories().map((c) => ({ category: encodeURIComponent(c.name) }));
+}
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
   const category = decodeURIComponent(params.category);
