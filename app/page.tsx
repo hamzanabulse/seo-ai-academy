@@ -10,31 +10,40 @@ export default function Home() {
 
   return (
     <div className="space-y-10">
-      <section className="space-y-4">
-        <h1 className="text-4xl font-semibold tracking-tight">SEO Journal AI</h1>
-        <p className="max-w-2xl text-[#c9d1d9]">
-          Modern SEO guides for the AI search era — AI Overviews, zero‑click behavior, semantic search,
-          E‑E‑A‑T, and topical authority.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <Link
-            href="/blog"
-            className="rounded-md bg-[#238636] px-4 py-2 text-sm font-medium text-white hover:bg-[#2ea043]"
-          >
-            Read the Blog
-          </Link>
-          <Link
-            href="/guides"
-            className="rounded-md border border-[#30363d] bg-[#161b22] px-4 py-2 text-sm font-medium text-white hover:bg-[#1f2630]"
-          >
-            Browse Guides
-          </Link>
-          <Link
-            href="/courses"
-            className="rounded-md border border-[#30363d] bg-[#161b22] px-4 py-2 text-sm font-medium text-white hover:bg-[#1f2630]"
-          >
-            Courses
-          </Link>
+      <section className="relative overflow-hidden rounded-2xl border border-[#1f2630] bg-[#0d1117] p-8">
+        <div className="pointer-events-none absolute inset-0 opacity-30" style={{
+          background:
+            "radial-gradient(700px circle at 20% 20%, rgba(88,166,255,0.25), transparent 45%)",
+        }} />
+        <div className="relative space-y-4">
+          <div className="inline-flex items-center gap-2 rounded-full border border-[#1f2630] bg-[#0b0f14] px-3 py-1 text-xs text-[#8b949e]">
+            Minimal Premium • SEO + AI Search
+          </div>
+          <h1 className="text-4xl font-semibold tracking-tight text-white">SEO Journal AI</h1>
+          <p className="max-w-2xl text-[#c9d1d9]">
+            Modern SEO guides for the AI search era — AI Overviews, zero‑click behavior, semantic search,
+            E‑E‑A‑T, and topical authority.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/blog"
+              className="rounded-md bg-[#58a6ff] px-4 py-2 text-sm font-semibold text-[#0b0f14] hover:opacity-90"
+            >
+              Read the Blog
+            </Link>
+            <Link
+              href="/guides"
+              className="rounded-md border border-[#1f2630] bg-[#0b0f14] px-4 py-2 text-sm font-semibold text-white hover:border-[#30363d]"
+            >
+              Browse Guides
+            </Link>
+            <Link
+              href="/categories"
+              className="rounded-md border border-[#1f2630] bg-[#0b0f14] px-4 py-2 text-sm font-semibold text-white hover:border-[#30363d]"
+            >
+              Categories
+            </Link>
+          </div>
         </div>
       </section>
 

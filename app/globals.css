@@ -8,26 +8,44 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "ss01" on, "ss02" on;
 }
 
-/* GitHub-like prose */
+/* Minimal premium dark */
+.card {
+  border: 1px solid #1f2630;
+  background: #0d1117;
+  transition: border-color 120ms ease, background 120ms ease, transform 120ms ease;
+}
+
+.card:hover {
+  border-color: #30363d;
+  background: #0f1520;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 2px;
+}
+
+/* Prose (articles) */
 .prose {
   --tw-prose-body: #c9d1d9;
   --tw-prose-headings: #ffffff;
-  --tw-prose-links: #2f81f7;
+  --tw-prose-links: #58a6ff;
   --tw-prose-bold: #ffffff;
   --tw-prose-counters: #8b949e;
   --tw-prose-bullets: #8b949e;
-  --tw-prose-hr: #30363d;
+  --tw-prose-hr: #1f2630;
   --tw-prose-quotes: #c9d1d9;
   --tw-prose-quote-borders: #30363d;
   --tw-prose-captions: #8b949e;
   --tw-prose-code: #c9d1d9;
   --tw-prose-pre-code: #c9d1d9;
-  --tw-prose-pre-bg: #161b22;
-  --tw-prose-th-borders: #30363d;
-  --tw-prose-td-borders: #30363d;
+  --tw-prose-pre-bg: #0d1117;
+  --tw-prose-th-borders: #1f2630;
+  --tw-prose-td-borders: #1f2630;
 }
 
 .prose a {
@@ -35,12 +53,9 @@ body {
   text-underline-offset: 3px;
 }
 
-/* Cards */
-.card {
-  border: 1px solid #30363d;
-  background: #0d1117;
-}
-
-.card:hover {
-  background: #0f1520;
+.prose code {
+  background: #0b0f14;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.35rem;
+  border: 1px solid #1f2630;
 }
