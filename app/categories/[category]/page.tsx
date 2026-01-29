@@ -13,13 +13,13 @@ export default function CategoryPage({ params }: { params: { category: string } 
           <Link
             key={p.slug}
             href={`/blog/${p.slug}`}
-            className="block rounded-lg border p-5 hover:bg-slate-50"
+            className="card block rounded-lg p-5"
           >
             <div className="flex items-baseline justify-between gap-3">
-              <div className="font-semibold">{p.title}</div>
-              <div className="text-xs text-slate-600">{p.readingTime}</div>
+              <div className="font-semibold text-white">{p.title}</div>
+              <div className="text-xs text-[#8b949e]">{p.readingTime}</div>
             </div>
-            <div className="mt-1 text-sm text-slate-700">{p.description}</div>
+            <div className="mt-1 text-sm text-[#c9d1d9]">{p.description}</div>
           </Link>
         ))}
         {posts.length === 0 && <div className="text-sm text-slate-600">No posts yet.</div>}

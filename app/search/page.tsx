@@ -28,27 +28,27 @@ export default function SearchPage({
           name="q"
           defaultValue={q}
           placeholder="Search articles…"
-          className="w-full rounded-md border px-3 py-2"
+          className="w-full rounded-md border border-[#30363d] bg-[#0d1117] px-3 py-2 text-[#c9d1d9] placeholder:text-[#8b949e]"
         />
-        <button className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white">
+        <button className="rounded-md bg-[#238636] px-4 py-2 text-sm font-medium text-white hover:bg-[#2ea043]">
           Search
         </button>
       </form>
 
-      <div className="text-sm text-slate-600">{results.length} results</div>
+      <div className="text-sm text-[#8b949e]">{results.length} results</div>
 
       <div className="space-y-3">
         {results.map((p) => (
           <Link
             key={p.slug}
             href={`/blog/${p.slug}`}
-            className="block rounded-lg border p-5 hover:bg-slate-50"
+            className="card block rounded-lg p-5"
           >
-            <div className="font-semibold">{p.title}</div>
-            <div className="mt-1 text-sm text-slate-700">{p.description}</div>
+            <div className="font-semibold text-white">{p.title}</div>
+            <div className="mt-1 text-sm text-[#c9d1d9]">{p.description}</div>
           </Link>
         ))}
-        {results.length === 0 && <div className="text-sm text-slate-600">No results.</div>}
+        {results.length === 0 && <div className="text-sm text-[#8b949e]">No results.</div>}
       </div>
     </div>
   );

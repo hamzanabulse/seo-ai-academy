@@ -11,7 +11,7 @@ export default function TagsPage() {
           <Link
             key={t.name}
             href={`/tags/${slugifyTag(t.name)}`}
-            className="rounded-full border px-3 py-1 text-sm hover:bg-slate-50"
+            className="rounded-full border border-[#30363d] bg-[#161b22] px-3 py-1 text-sm text-[#c9d1d9] hover:text-white"
           >
             {t.name} <span className="text-slate-600">({t.count})</span>
           </Link>

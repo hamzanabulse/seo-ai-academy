@@ -12,10 +12,10 @@ export default function CategoriesPage() {
           <Link
             key={c.name}
             href={`/categories/${encodeURIComponent(c.name)}`}
-            className="flex items-center justify-between rounded-lg border p-5 hover:bg-slate-50"
+            className="card flex items-center justify-between rounded-lg p-5"
           >
-            <span className="font-semibold">{c.name}</span>
-            <span className="text-sm text-slate-600">{c.count}</span>
+            <span className="font-semibold text-white">{c.name}</span>
+            <span className="text-sm text-[#8b949e]">{c.count}</span>
           </Link>
         ))}
       </div>

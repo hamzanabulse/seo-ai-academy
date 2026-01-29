@@ -2,15 +2,45 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01" on, "ss02" on;
+}
+
+/* GitHub-like prose */
+.prose {
+  --tw-prose-body: #c9d1d9;
+  --tw-prose-headings: #ffffff;
+  --tw-prose-links: #2f81f7;
+  --tw-prose-bold: #ffffff;
+  --tw-prose-counters: #8b949e;
+  --tw-prose-bullets: #8b949e;
+  --tw-prose-hr: #30363d;
+  --tw-prose-quotes: #c9d1d9;
+  --tw-prose-quote-borders: #30363d;
+  --tw-prose-captions: #8b949e;
+  --tw-prose-code: #c9d1d9;
+  --tw-prose-pre-code: #c9d1d9;
+  --tw-prose-pre-bg: #161b22;
+  --tw-prose-th-borders: #30363d;
+  --tw-prose-td-borders: #30363d;
 }
 
 .prose a {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #30363d;
+  background: #0d1117;
+}
+
+.card:hover {
+  background: #0f1520;
 }
