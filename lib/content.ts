@@ -9,6 +9,7 @@ export type Post = {
   title: string;
   date?: string;
   description?: string;
+  category?: string;
   tags?: string[];
   content: string;
   readingTime: string;
@@ -37,6 +38,7 @@ export function getBlogPosts(): Post[] {
       title: (data.title as string) ?? slug,
       date: data.date as string | undefined,
       description: data.description as string | undefined,
+      category: data.category as string | undefined,
       tags: (data.tags as string[]) ?? [],
       content,
       readingTime: rt.text,
@@ -57,6 +59,7 @@ export function getBlogPost(slug: string): Post | null {
     title: (data.title as string) ?? slug,
     date: data.date as string | undefined,
     description: data.description as string | undefined,
+    category: data.category as string | undefined,
     tags: (data.tags as string[]) ?? [],
     content,
     readingTime: rt.text,

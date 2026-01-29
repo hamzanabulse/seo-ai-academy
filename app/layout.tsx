@@ -33,6 +33,12 @@ export default function RootLayout({
               <Link href="/blog" className="hover:underline">
                 Blog
               </Link>
+              <Link href="/categories" className="hover:underline">
+                Categories
+              </Link>
+              <Link href="/tags" className="hover:underline">
+                Tags
+              </Link>
               <Link href="/search" className="hover:underline">
                 Search
               </Link>
