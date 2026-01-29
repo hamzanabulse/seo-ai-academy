@@ -1,8 +1,5 @@
 import "server-only";
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import readingTime from "reading-time";
+import postsData from "@/lib/generated/posts.json";
 
 export type Post = {
   slug: string;
@@ -15,53 +12,37 @@ export type Post = {
   readingTime: string;
 };
 
-const CONTENT_DIR = path.join(process.cwd(), "content");
+type RawPost = {
+  slug: string;
+  title: string;
+  date: string | null;
+  description: string | null;
+  category: string | null;
+  tags: string[];
+  content: string;
+  readingTime: string;
+};
 
-function readMd(dir: string) {
-  const full = path.join(CONTENT_DIR, dir);
-  if (!fs.existsSync(full)) return [] as string[];
-  return fs
-    .readdirSync(full)
-    .filter((f) => f.endsWith(".md"))
-    .map((f) => path.join(full, f));
+function normalize(p: RawPost): Post {
+  return {
+    slug: p.slug,
+    title: p.title,
+    date: p.date ?? undefined,
+    description: p.description ?? undefined,
+    category: p.category ?? undefined,
+    tags: p.tags ?? [],
+    content: p.content,
+    readingTime: p.readingTime,
+  };
 }
 
 export function getBlogPosts(): Post[] {
-  const files = readMd("blog");
-  const posts = files.map((file) => {
-    const slug = path.basename(file, ".md");
-    const raw = fs.readFileSync(file, "utf8");
-    const { data, content } = matter(raw);
-    const rt = readingTime(content);
-    return {
-      slug,
-      title: (data.title as string) ?? slug,
-      date: data.date as string | undefined,
-      description: data.description as string | undefined,
-      category: data.category as string | undefined,
-      tags: (data.tags as string[]) ?? [],
-      content,
-      readingTime: rt.text,
-    } satisfies Post;
-  });
-
-  return posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  const raw = (postsData as any).posts as RawPost[];
+  return raw.map(normalize);
 }
 
 export function getBlogPost(slug: string): Post | null {
-  const file = path.join(CONTENT_DIR, "blog", `${slug}.md`);
-  if (!fs.existsSync(file)) return null;
-  const raw = fs.readFileSync(file, "utf8");
-  const { data, content } = matter(raw);
-  const rt = readingTime(content);
-  return {
-    slug,
-    title: (data.title as string) ?? slug,
-    date: data.date as string | undefined,
-    description: data.description as string | undefined,
-    category: data.category as string | undefined,
-    tags: (data.tags as string[]) ?? [],
-    content,
-    readingTime: rt.text,
-  };
+  const raw = (postsData as any).posts as RawPost[];
+  const found = raw.find((p) => p.slug === slug);
+  return found ? normalize(found) : null;
 }

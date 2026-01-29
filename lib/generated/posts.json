@@ -1,0 +1,468 @@
+{
+  "posts": [
+    {
+      "slug": "ai-overviews-seo",
+      "title": "AI Overviews SEO: How to Get Cited (2026)",
+      "date": "2026-01-29",
+      "description": "A practical checklist to increase your odds of being cited in Google AI Overviews.",
+      "category": "AI Search",
+      "tags": [
+        "ai overviews",
+        "sge",
+        "zero-click",
+        "content structure"
+      ],
+      "content": "\n## The quick answer\n\nTo get cited in AI Overviews, you need **clear answers**, **evidence**, and **trust signals**. Write content that is easy for machines to parse and strong enough for humans to trust.\n\n## Why AI Overviews reduce clicks\n\nAI Overviews often satisfy the query on Google. That means fewer clicks—unless your page is **cited** or the query is **complex**.\n\n## The citation checklist\n\n### 1) Put the answer first\n\nStart with a 2–4 sentence answer. Then expand.\n\n### 2) Use scannable structure\n\n- Short paragraphs\n- Lists\n- Tables for comparisons\n- Consistent headings (H2/H3)\n\n### 3) Add “anti‑AI” signals\n\nAI can summarize, but it can’t *experience*. Add:\n\n- first‑hand notes\n- screenshots\n- original examples\n- real numbers (even small experiments)\n\n### 4) Build internal topical support\n\nCreate supporting pages and link them together.\n\n### 5) Strengthen E‑E‑A‑T\n\n- Author bio\n- Editorial policy\n- Update timestamps\n- Clear sources for claims\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "canonical-tags",
+      "title": "Canonical Tags: When to Use Them (and When Not To)",
+      "date": "2026-01-29",
+      "description": "How canonical tags prevent duplicate indexing and consolidate ranking signals.",
+      "category": "Technical SEO",
+      "tags": [
+        "canonical",
+        "duplicate content",
+        "indexing"
+      ],
+      "content": "\n## The quick answer\n\nUse canonicals when multiple URLs show the same content and you want one primary URL indexed.\n\n## Common cases\n\n- UTM parameters\n- sorting/filter pages\n- near-duplicate pages\n\n## Related\n\nIf you have lots of duplicates, consider: [Content pruning](/blog/seo-content-pruning).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "content-brief-template",
+      "title": "Content Brief Template: Write Faster, Rank Faster",
+      "date": "2026-01-29",
+      "description": "A simple content brief format: intent, outline, SERP notes, and internal links.",
+      "category": "Content SEO",
+      "tags": [
+        "content brief",
+        "content strategy",
+        "seo"
+      ],
+      "content": "\n## The quick answer\n\nA content brief prevents thin content and makes internal linking automatic.\n\n## Template\n\n- Primary keyword + intent\n- The “answer first” paragraph\n- H2/H3 outline\n- 5 internal links to include (see: [Topical authority](/blog/internal-linking-topical-authority))\n- FAQ questions\n\n## Related\n\nUse this when scaling: [Programmatic SEO starter](/blog/programmatic-seo-starter).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "content-refresh-playbook",
+      "title": "Content Refresh Playbook: Update Old Posts to Rank",
+      "date": "2026-01-29",
+      "description": "How to refresh existing content for better rankings and AI citations.",
+      "category": "Content SEO",
+      "tags": [
+        "content refresh",
+        "seo",
+        "updates",
+        "internal linking"
+      ],
+      "content": "\n## The quick answer\n\nRefreshing content often beats publishing new posts because you keep the existing URL history.\n\n## The playbook\n\n1) Update the first 200 words (answer-first)\n2) Add 3–5 new internal links to related pages\n3) Improve headings (H2/H3) and add an FAQ\n4) Add examples or small tests (experience)\n\n## Internal linking rule\n\nEvery refresh should strengthen the cluster. Use this guide: [Topical authority & internal linking](/blog/internal-linking-topical-authority).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "content-silo-vs-cluster",
+      "title": "Silos vs Clusters: The Modern Content Structure",
+      "date": "2026-01-29",
+      "description": "Why topical clusters beat rigid silos for rankings and AI understanding.",
+      "category": "Content SEO",
+      "tags": [
+        "content strategy",
+        "clusters",
+        "internal linking"
+      ],
+      "content": "\n## The quick answer\n\nClusters are flexible and map better to how Google understands topics.\n\n## Practical model\n\n- Pillar page\n- Supporting pages\n- Contextual internal links both directions\n\n## Start here\n\nRead: [Topical authority](/blog/internal-linking-topical-authority).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "core-web-vitals-mini",
+      "title": "Core Web Vitals Mini Guide: Fix LCP, INP, CLS",
+      "date": "2026-01-29",
+      "description": "A short guide to the 3 metrics that usually matter most for UX and rankings.",
+      "category": "Technical SEO",
+      "tags": [
+        "core web vitals",
+        "lcp",
+        "inp",
+        "cls",
+        "performance"
+      ],
+      "content": "\n## The quick answer\n\nMost sites improve CWV by fixing images, scripts, and layout shifts.\n\n## Quick fixes\n\n- LCP: compress hero image, reduce render-blocking scripts\n- INP: remove heavy JS, defer third-party scripts\n- CLS: set image/video dimensions and avoid late-loading banners\n\n## Related\n\nStart with the full checklist: [Technical SEO checklist](/blog/technical-seo-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "eeat-checklist",
+      "title": "E‑E‑A‑T Checklist (2026): Prove Trust Fast",
+      "date": "2026-01-29",
+      "description": "A simple E‑E‑A‑T checklist you can apply to every important page.",
+      "category": "SEO",
+      "tags": [
+        "eeat",
+        "trust",
+        "authority",
+        "content quality"
+      ],
+      "content": "\n## What E‑E‑A‑T is\n\nE‑E‑A‑T stands for **Experience, Expertise, Authoritativeness, Trust**. In 2026 it’s how you separate real sites from mass AI content.\n\n## The checklist\n\n### Page-level\n\n- A clear author (real person) with bio\n- Evidence of experience (photos, steps, screenshots, “we tested…\")\n- References when facts matter\n- Updated date when content changes\n\n### Site-level\n\n- About page with who/why\n- Contact page\n- Editorial policy\n- Privacy policy\n\n### Content-level\n\n- No thin pages\n- No duplicated pages\n- Strong internal linking to supporting guides\n\n## Quick win\n\nPick your top 10 pages and apply the checklist. Then prune or merge the weakest pages.\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "google-business-profile-optimization",
+      "title": "Google Business Profile Optimization: Quick Checklist",
+      "date": "2026-01-29",
+      "description": "GBP fields and habits that improve visibility in the map pack.",
+      "category": "Local SEO",
+      "tags": [
+        "gbp",
+        "google business profile",
+        "local seo"
+      ],
+      "content": "\n## The quick answer\n\nMost local wins come from complete profiles + consistent activity.\n\n## Checklist\n\n- Correct primary category\n- Services filled out\n- Real photos weekly\n- Answer Q&A\n- Respond to reviews\n\n## Foundation\n\nStart here: [Local SEO foundations](/blog/local-seo-foundations).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "internal-linking-topical-authority",
+      "title": "Topical Authority: Internal Linking That Actually Works",
+      "date": "2026-01-29",
+      "description": "How to build clusters and internal links that help rankings and AI citations.",
+      "category": "SEO",
+      "tags": [
+        "internal linking",
+        "topical authority",
+        "semantic seo",
+        "clusters"
+      ],
+      "content": "\n## The principle\n\nGoogle understands topics through **relationships**. Internal links are how you declare those relationships.\n\n## A simple cluster model\n\n- 1 pillar page (broad)\n- 5–15 supporting pages (specific)\n- 2–5 links per page to related pages\n\n## Link rules\n\n- Link when it helps the reader (contextual)\n- Use descriptive anchor text (not “click here”)\n- Keep your important pages within 2–3 clicks from home\n\n## Maintenance\n\nEvery time you publish a new article:\n\n1) add 3–5 internal links from older posts → the new post\n2) add 3–5 links from the new post → older supporting posts\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "keyword-research-modern",
+      "title": "Keyword Research (Modern): Intent > Volume",
+      "date": "2026-01-29",
+      "description": "How to pick keywords using intent, SERP layouts, and AI Overviews behavior.",
+      "category": "Content SEO",
+      "tags": [
+        "keyword research",
+        "intent",
+        "serp",
+        "ai overviews"
+      ],
+      "content": "\n## The quick answer\n\nIn 2026, a keyword is not just volume — it’s **intent + SERP features + AI answers**.\n\n## The method\n\n- Group keywords by intent (informational / commercial / transactional)\n- Check if AI Overviews appear (see: [AI Overviews SEO](/blog/ai-overviews-seo))\n- Target complex queries where AI can’t fully answer\n\n## Close the loop\n\nOnce you publish, connect it into your cluster: [Internal linking](/blog/internal-linking-topical-authority).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "link-building-digital-pr",
+      "title": "Link Building in 2026: Digital PR Basics",
+      "date": "2026-01-29",
+      "description": "A simple digital PR approach: data, angles, and outreach that earns real links.",
+      "category": "SEO",
+      "tags": [
+        "link building",
+        "digital pr",
+        "authority"
+      ],
+      "content": "\n## The quick answer\n\nStop chasing spam links. Earn links by publishing something journalists can cite.\n\n## The approach\n\n- Create a small dataset (even 50–200 samples)\n- Publish the insight + charts\n- Pitch the angle to writers in your niche\n\n## Strengthen trust\n\nLinks work best with trust pages: [Editorial policy](/editorial-policy) + [E‑E‑A‑T checklist](/blog/eeat-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "local-seo-foundations",
+      "title": "Local SEO Foundations (2026): What Actually Matters",
+      "date": "2026-01-29",
+      "description": "The core local SEO signals that move the needle: GBP, NAP, reviews, and location pages.",
+      "category": "Local SEO",
+      "tags": [
+        "local seo",
+        "google business profile",
+        "reviews",
+        "nap"
+      ],
+      "content": "\n## The quick answer\n\nLocal SEO is trust + proximity + relevance. You win by being the most credible local option.\n\n## The foundations\n\n- Google Business Profile: categories, services, photos\n- NAP consistency (name/address/phone)\n- Review velocity + response rate\n- Location/service pages that match real queries\n\n## Tie-in with E‑E‑A‑T\n\nLocal trust is E‑E‑A‑T in practice. Start here: [E‑E‑A‑T checklist](/blog/eeat-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "location-pages-best-practices",
+      "title": "Location Pages Best Practices (for Local + Programmatic SEO)",
+      "date": "2026-01-29",
+      "description": "How to build city pages that are unique, helpful, and not duplicate content.",
+      "category": "Programmatic SEO",
+      "tags": [
+        "location pages",
+        "programmatic seo",
+        "local seo"
+      ],
+      "content": "\n## The quick answer\n\nLocation pages work when each page contains local proof, unique details, and clear services.\n\n## What to include\n\n- Services offered in that location\n- Local FAQs\n- Testimonials/case studies\n- Internal links to the main service pillar\n\n## Avoid duplication\n\nUse canonicals carefully: [Canonical tags](/blog/canonical-tags).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "on-page-seo-quick",
+      "title": "On-Page SEO Quick Guide: Titles, Headings, and UX",
+      "date": "2026-01-29",
+      "description": "A simple on-page SEO guide for titles, headings, and user experience.",
+      "category": "Content SEO",
+      "tags": [
+        "on-page seo",
+        "titles",
+        "headings",
+        "ux"
+      ],
+      "content": "\n## The quick answer\n\nOn-page SEO is about clarity: the page should be instantly understandable to humans and machines.\n\n## Quick checklist\n\n- One clear H1\n- Descriptive H2/H3 structure\n- Short answer at the top\n- Internal links to supporting pages\n\n## Next\n\nIf you want stronger site-wide results, apply: [Content refresh playbook](/blog/content-refresh-playbook).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "programmatic-seo-starter",
+      "title": "Programmatic SEO Starter: 5 Page Types That Scale",
+      "date": "2026-01-29",
+      "description": "A beginner-friendly programmatic SEO plan using scalable page templates.",
+      "category": "Programmatic SEO",
+      "tags": [
+        "programmatic seo",
+        "templates",
+        "scaling",
+        "content"
+      ],
+      "content": "\n## The quick answer\n\nProgrammatic SEO works when each template page is genuinely useful and not duplicate.\n\n## 5 templates that work\n\n1) Location pages (City + service)\n2) Comparison pages (X vs Y)\n3) Alternatives pages\n4) Use-case pages\n5) Glossary pages\n\n## Avoid the biggest mistake\n\nThin/duplicated pages hurt site quality. Use: [Technical SEO checklist](/blog/technical-seo-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "reviews-local-seo",
+      "title": "Reviews for Local SEO: How to Get More (Without Spam)",
+      "date": "2026-01-29",
+      "description": "Simple review acquisition systems and how to respond for trust.",
+      "category": "Local SEO",
+      "tags": [
+        "reviews",
+        "local seo",
+        "trust"
+      ],
+      "content": "\n## The quick answer\n\nYou need consistent review velocity, not one big spike.\n\n## Simple system\n\n- Ask at the right moment (after value delivered)\n- Use a short link/QR\n- Reply to every review\n\n## Related\n\nTrust system-wide matters: [E‑E‑A‑T checklist](/blog/eeat-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "schema-markup-basics",
+      "title": "Schema Markup Basics: What to Implement First",
+      "date": "2026-01-29",
+      "description": "The highest-impact schema types for most sites: Organization, Article, FAQ, Breadcrumbs.",
+      "category": "Technical SEO",
+      "tags": [
+        "schema",
+        "structured data",
+        "rich results"
+      ],
+      "content": "\n## The quick answer\n\nStart with schema that improves understanding, not gimmicks: **Organization**, **Breadcrumb**, and **Article**. Add **FAQ** when it genuinely helps.\n\n## What to implement first\n\n1) Organization / Website\n2) BreadcrumbList\n3) Article (or BlogPosting)\n4) FAQPage (only for real FAQs)\n\n## Pair it with structure\n\nSchema works best when your content is well structured: [On-page SEO quick guide](/blog/on-page-seo-quick).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-content-pruning",
+      "title": "Content Pruning: Delete Pages to Improve SEO",
+      "date": "2026-01-29",
+      "description": "When deleting or merging pages is the fastest way to improve site quality.",
+      "category": "Content SEO",
+      "tags": [
+        "content pruning",
+        "seo",
+        "quality",
+        "indexing"
+      ],
+      "content": "\n## The quick answer\n\nIf you have lots of thin pages, your good pages suffer. Pruning can raise overall quality signals.\n\n## What to prune\n\n- Pages with no traffic and no purpose\n- Duplicate topics\n- Outdated pages that can be merged\n\n## Pruning process\n\n1) Export URLs and traffic\n2) Decide: keep / merge / redirect / delete\n3) Update internal links (see: [Internal linking](/blog/internal-linking-topical-authority))\n\n## Related\n\nTrust signals matter more after pruning: [E‑E‑A‑T checklist](/blog/eeat-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-content-templates",
+      "title": "SEO Content Templates: 5 Formats That Rank",
+      "date": "2026-01-29",
+      "description": "The five post formats that consistently perform: how-to, checklist, comparison, glossary, playbook.",
+      "category": "Content SEO",
+      "tags": [
+        "content templates",
+        "seo",
+        "writing"
+      ],
+      "content": "\n## The quick answer\n\nPick a format that matches intent. Don’t force every topic into a “how-to”.\n\n## 5 templates\n\n- How-to\n- Checklist\n- Comparison\n- Glossary\n- Playbook\n- (Bonus) Case study\n\n## Related\n\nStart from intent: [Keyword research (modern)](/blog/keyword-research-modern).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-faqs",
+      "title": "SEO FAQs: When They Help (and When They Hurt)",
+      "date": "2026-01-29",
+      "description": "How to add FAQs that improve clarity and AI citations without bloating content.",
+      "category": "Content SEO",
+      "tags": [
+        "faqs",
+        "on-page",
+        "ai overviews"
+      ],
+      "content": "\n## The quick answer\n\nFAQs help when they answer real questions and reduce confusion. They hurt when they’re filler.\n\n## 3 rules\n\n- Use questions from Search Console / support tickets\n- Keep answers short and specific\n- Link to deeper guides where needed\n\n## Related\n\nWrite answers-first sections: [AI search answer blocks](/blog/seo-for-ai-search-snippets).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-for-ai-search-snippets",
+      "title": "SEO for AI Search: Answer Blocks That Get Cited",
+      "date": "2026-01-29",
+      "description": "How to write answer blocks and evidence sections that AI systems like to cite.",
+      "category": "AI Search",
+      "tags": [
+        "ai search",
+        "ai overviews",
+        "citations",
+        "content structure"
+      ],
+      "content": "\n## The quick answer\n\nTo be cited, make it easy to extract: **short answer**, **bullets**, then **proof**.\n\n## The block pattern\n\n- 2–4 sentence direct answer\n- Bullets (steps, options, definitions)\n- Evidence section (sources, screenshots, examples)\n\n## Related\n\nStart with the bigger picture: [AI Overviews SEO](/blog/ai-overviews-seo).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-glossary-strategy",
+      "title": "Glossary SEO Strategy: Build Topical Coverage",
+      "date": "2026-01-29",
+      "description": "How glossary pages build internal linking and long-tail traffic.",
+      "category": "Programmatic SEO",
+      "tags": [
+        "glossary",
+        "programmatic seo",
+        "internal linking"
+      ],
+      "content": "\n## The quick answer\n\nGlossary pages are easy to maintain and great for internal linking.\n\n## How to do it\n\n- Keep definitions short\n- Add examples\n- Link to 2–3 related guides\n\n## Related\n\nClusters win: [Topical authority](/blog/internal-linking-topical-authority).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-landing-pages",
+      "title": "SEO Landing Pages: Rank + Convert",
+      "date": "2026-01-29",
+      "description": "How to create landing pages that rank and convert without keyword stuffing.",
+      "category": "Content SEO",
+      "tags": [
+        "landing pages",
+        "conversion",
+        "seo"
+      ],
+      "content": "\n## The quick answer\n\nGood SEO landing pages match intent, build trust, and make the next step obvious.\n\n## What to include\n\n- Clear value proposition\n- Proof (cases, testimonials, data)\n- FAQ section\n- Internal links to relevant guides\n\n## Trust matters\n\nApply: [E‑E‑A‑T checklist](/blog/eeat-checklist).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-metrics-ga4",
+      "title": "SEO Metrics That Matter (GA4): What to Track",
+      "date": "2026-01-29",
+      "description": "The simplest SEO measurement setup using GA4: what to track and why.",
+      "category": "Analytics & Tracking",
+      "tags": [
+        "ga4",
+        "seo metrics",
+        "tracking",
+        "analytics"
+      ],
+      "content": "\n## The quick answer\n\nTrack outcomes, not vanity metrics. Rankings alone don’t pay the bills.\n\n## Metrics to track\n\n- Organic sessions (trend)\n- Conversions from organic\n- Top landing pages\n- Branded vs non‑branded queries (in Search Console)\n\n## Also track AI impact\n\nIf AI Overviews reduce clicks, measure it per page: [AI Overviews SEO](/blog/ai-overviews-seo).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-migration-checklist",
+      "title": "SEO Migration Checklist: Don’t Lose Traffic",
+      "date": "2026-01-29",
+      "description": "A short migration checklist for redesigns, domain changes, and CMS moves.",
+      "category": "Technical SEO",
+      "tags": [
+        "migration",
+        "redirects",
+        "technical seo"
+      ],
+      "content": "\n## The quick answer\n\nMost migration losses come from broken redirects, missing pages, and noindex mistakes.\n\n## Checklist\n\n- Crawl old site and export URLs\n- 1:1 redirect mapping (301)\n- Keep the same content where possible\n- Monitor Search Console after launch\n\n## Related\n\nRedirect rules: [301 vs 302](/blog/seo-redirects-101).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-redirects-101",
+      "title": "301 vs 302 Redirects: SEO Rules of Thumb",
+      "date": "2026-01-29",
+      "description": "Simple rules for redirects that protect rankings during migrations and pruning.",
+      "category": "Technical SEO",
+      "tags": [
+        "redirects",
+        "301",
+        "302",
+        "migrations"
+      ],
+      "content": "\n## The quick answer\n\n- Use **301** when a move is permanent.\n- Use **302** only for truly temporary changes.\n\n## Migration basics\n\n- Map old → new URLs\n- Avoid redirect chains\n- Update internal links (see: [Site architecture](/blog/seo-site-architecture))\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-site-architecture",
+      "title": "Site Architecture for SEO: 3-Click Rule + Clusters",
+      "date": "2026-01-29",
+      "description": "A simple model for site structure that improves crawlability and topical authority.",
+      "category": "Technical SEO",
+      "tags": [
+        "site architecture",
+        "internal linking",
+        "crawl",
+        "clusters"
+      ],
+      "content": "\n## The quick answer\n\nThe best architecture makes it easy to find important pages within 2–3 clicks.\n\n## The model\n\n- Home → Category → Article\n- Pillar pages → supporting pages (cluster)\n\n## What to do today\n\n- Create categories (done)\n- Add internal links in every post\n\nUse this: [Topical authority guide](/blog/internal-linking-topical-authority).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-title-formulas",
+      "title": "SEO Title Formulas That Still Work (2026)",
+      "date": "2026-01-29",
+      "description": "Reliable title patterns for clicks, clarity, and AI-friendly structure.",
+      "category": "Content SEO",
+      "tags": [
+        "title tags",
+        "copywriting",
+        "on-page seo"
+      ],
+      "content": "\n## The quick answer\n\nGreat titles are clear, specific, and match intent. Use a few proven patterns and stop overthinking.\n\n## 6 title patterns\n\n- How to + outcome\n- Checklist: X items\n- The playbook for X\n- X vs Y (comparison)\n- Best X for Y (buyer intent)\n- Mistakes to avoid\n\n## Pair with on-page\n\nTitles work best with strong headings: [On-page SEO quick guide](/blog/on-page-seo-quick).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "seo-topics-map",
+      "title": "Topic Map: Plan Your SEO Content Like a System",
+      "date": "2026-01-29",
+      "description": "A simple way to map pillars, supporting articles, and internal links before writing.",
+      "category": "Content SEO",
+      "tags": [
+        "topic map",
+        "content strategy",
+        "topical authority"
+      ],
+      "content": "\n## The quick answer\n\nA topic map prevents random posting. It turns your site into a connected knowledge graph.\n\n## Steps\n\n1) Pick 5 core pillars\n2) List 10–20 supporting topics each\n3) Decide internal links upfront\n\n## Start here\n\nUse: [Content brief template](/blog/content-brief-template).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "technical-seo-checklist",
+      "title": "Technical SEO Checklist (2026): Fast Wins",
+      "date": "2026-01-29",
+      "description": "A practical technical SEO checklist to improve crawlability, speed, and indexation.",
+      "category": "Technical SEO",
+      "tags": [
+        "technical seo",
+        "indexing",
+        "core web vitals",
+        "crawl"
+      ],
+      "content": "\n## The quick answer\n\nTechnical SEO is about making your site easy to **crawl**, **index**, and **render** — fast.\n\n## Checklist (fast wins)\n\n### Crawl & index\n\n- Submit `sitemap.xml` and keep it updated\n- Make sure important pages are not `noindex`\n- Fix redirect chains\n- Remove/merge thin pages (see: [E‑E‑A‑T checklist](/blog/eeat-checklist))\n\n### Site architecture\n\n- Keep important pages within 2–3 clicks\n- Use internal linking clusters (see: [Topical authority](/blog/internal-linking-topical-authority))\n\n### Speed (Core Web Vitals)\n\n- Compress images\n- Reduce heavy scripts\n- Avoid layout shifts (CLS)\n\n## What to do next\n\nIf your traffic is dropping, also check AI behavior: [AI Overviews SEO](/blog/ai-overviews-seo).\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "welcome",
+      "title": "Welcome to SEO & AI Academy",
+      "date": "2026-01-29",
+      "description": "What this site is, who it's for, and how to use it.",
+      "category": null,
+      "tags": [
+        "seo",
+        "ai",
+        "getting-started"
+      ],
+      "content": "\nSEO is changing fast. This site explains **modern SEO** in the age of **AI Overviews / SGE**, zero‑click searches, and semantic search.\n\n## What you'll find here\n\n- Practical SEO guides (technical + content)\n- AI search behavior (how engines summarize and cite sources)\n- Playbooks, checklists, and templates\n\n## Start here\n\n1. Understand how AI search changes clicks\n2. Learn E‑E‑A‑T and trust signals\n3. Build topical clusters and internal linking\n",
+      "readingTime": "1 min read"
+    },
+    {
+      "slug": "zero-click-strategy",
+      "title": "Zero-Click SEO Strategy: How to Win Without the Click",
+      "date": "2026-01-29",
+      "description": "Tactics for visibility when Google answers queries directly: branding, snippets, and intent.",
+      "category": "AI Search",
+      "tags": [
+        "zero-click",
+        "ai overviews",
+        "serp features"
+      ],
+      "content": "\n## The quick answer\n\nZero-click is not the enemy. You win by targeting queries that still need decisions and by earning citations.\n\n## Practical tactics\n\n- Target complex queries (comparison, opinion, decision)\n- Build a brand that users search for again\n- Use internal links to move readers to deeper pages\n\n## Related\n\nSee: [Keyword research (modern)](/blog/keyword-research-modern) and [AI search answer blocks](/blog/seo-for-ai-search-snippets).\n",
+      "readingTime": "1 min read"
+    }
+  ]
+}
