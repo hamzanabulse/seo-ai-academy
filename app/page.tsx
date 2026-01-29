@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section className="space-y-4">
-        <h1 className="text-4xl font-semibold tracking-tight">SEO, explained for the AI era.</h1>
+        <h1 className="text-4xl font-semibold tracking-tight">SEO Journal AI</h1>
         <p className="max-w-2xl text-slate-700">
-          Learn modern SEO for 2026: AI Overviews, zero‑click behavior, semantic search, E‑E‑A‑T,
-          and building topical authority.
+          Modern SEO guides for the AI search era: AI Overviews, zero‑click behavior, semantic search,
+          E‑E‑A‑T, and topical authority.
         </p>
         <div className="flex flex-wrap gap-3">
           <Link
@@ -40,11 +40,11 @@ export default function Home() {
       </section>
 
       <section className="rounded-lg border bg-slate-50 p-6">
-        <h2 className="text-lg font-semibold">Next steps</h2>
+        <h2 className="text-lg font-semibold">What’s inside</h2>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-slate-700">
-          <li>We can add an AI toolbox (titles/meta/outlines) in phase 2.</li>
-          <li>We can connect a CMS later (Sanity) if you want easy editing.</li>
-          <li>Once deployed on Vercel, we can add a custom domain.</li>
+          <li>Guides that are built to rank and get cited.</li>
+          <li>Structured learning paths (courses) for beginners → advanced.</li>
+          <li>Blog articles with practical checklists and playbooks.</li>
         </ul>
       </section>
     </div>

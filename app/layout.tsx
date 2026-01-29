@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: {
-    default: "SEO & AI Academy",
-    template: "%s | SEO & AI Academy",
+    default: "SEO Journal AI",
+    template: "%s | SEO Journal AI",
   },
-  description: "Learn SEO in the age of AI Overviews. Guides, courses, and practical playbooks.",
+  description: "SEO Journal AI: modern SEO guides for the AI search era.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
         <header className="border-b">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
             <Link href="/" className="font-semibold tracking-tight">
-              SEO & AI Academy
+              SEO Journal AI
             </Link>
             <nav className="flex gap-4 text-sm">
               <Link href="/guides" className="hover:underline">
@@ -33,16 +33,13 @@ export default function RootLayout({
               <Link href="/blog" className="hover:underline">
                 Blog
               </Link>
-              <Link href="/tools" className="hover:underline">
-                AI Tools
-              </Link>
             </nav>
           </div>
         </header>
         <main className="mx-auto max-w-5xl px-4 py-10">{children}</main>
         <footer className="border-t">
           <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-slate-600">
-            © {new Date().getFullYear()} SEO & AI Academy
+            © {new Date().getFullYear()} SEO Journal AI
           </div>
         </footer>
       </body>
