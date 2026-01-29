@@ -33,6 +33,9 @@ export default function RootLayout({
               <Link href="/blog" className="hover:underline">
                 Blog
               </Link>
+              <Link href="/tools" className="hover:underline">
+                AI Tools
+              </Link>
             </nav>
           </div>
         </header>
